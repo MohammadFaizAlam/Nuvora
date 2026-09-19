@@ -82,7 +82,8 @@ export default function Legal({ title, updated, intro, sections }: LegalPageCont
 				className="fixed top-0 left-0 w-full h-[2px] bg-secondry origin-left z-[60] pointer-events-none"
 			/>
 			<section className="w-full">
-				<div className="w-full margin padding-x">
+				{/* Extra top padding on small screens clears the fixed 8vh navbar */}
+				<div className="w-full margin padding-x xm:pt-[50px] sm:pt-[50px] md:pt-[30px]">
 					<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
 						<TextMask>{[title]}</TextMask>
 					</h1>

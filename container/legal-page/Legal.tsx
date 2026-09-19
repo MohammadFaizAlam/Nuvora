@@ -159,16 +159,34 @@ export default function Legal({ title, updated, intro, sections }: LegalPageCont
 									whileInView="visible"
 									viewport={revealViewport}>
 									{section.body.map((block, i) =>
-										block.type === "p" ? (
+										block.type === "lead" ? (
 											<p
 												key={i}
-												className="paragraph font-normal font-NeueMontreal text-secondry pb-[20px] last:pb-0">
+												className="sub-paragraph font-NeueMontreal text-secondry pb-[20px]">
+												{block.text}
+											</p>
+										) : block.type === "sub" ? (
+											<p
+												key={i}
+												className="small-text uppercase font-medium font-NeueMontreal text-secondry pt-[10px] pb-[10px]">
+												{block.text}
+											</p>
+										) : block.type === "note" ? (
+											<p
+												key={i}
+												className="small-text font-NeueMontreal text-secondry opacity-40 pt-[10px] pb-[20px]">
+												— {block.text}
+											</p>
+										) : block.type === "p" ? (
+											<p
+												key={i}
+												className="paragraph font-normal font-NeueMontreal text-secondry pb-[20px]">
 												{block.text}
 											</p>
 										) : (
 											<ul
 												key={i}
-												className="list-disc pl-[20px] flex flex-col gap-[10px] pb-[20px] last:pb-0">
+												className="list-disc pl-[20px] flex flex-col gap-[10px] pb-[20px]">
 												{block.items.map((item, j) => (
 													<li
 														key={j}

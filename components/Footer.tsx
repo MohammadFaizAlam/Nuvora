@@ -106,14 +106,19 @@ export default function Footer() {
 							© Nuvora 2026.
 						</h1>
 						<LinkHover
-							title="Legal Terms"
-							href="/"
+							title="Terms & Conditions"
+							href="/terms"
+							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
+						/>
+						<LinkHover
+							title="Privacy Policy"
+							href="/privacy"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>
 					</div>
 					<div>
 						<LinkHover
-							title="Website by Zain"
+							title="Website by Md. Faiz"
 							href="/"
 							className="before:h-[1px] after:h-[1px] paragraph font-medium text-secondry opacity-40 before:bottom-[-3px] after:bottom-[-3px]"
 						/>

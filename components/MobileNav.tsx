@@ -6,13 +6,29 @@ import { IoMdClose } from "react-icons/io";
 import { logo, mobileLogo } from "@/public";
 import { footernavbarItems } from "@/constants";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { AnimatePresence, motion } from "framer-motion";
+import { navVariants } from "@/motion";
+import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "framer-motion";
 
 export default function MobileNav() {
 	const [toggle, setToggle] = useState(false);
+	const [hidden, setHidden] = useState(false);
+	const { scrollY } = useScroll();
+
+	useMotionValueEvent(scrollY, "change", (latest) => {
+		const previous = scrollY.getPrevious();
+		if (previous && latest > previous) {
+			setHidden(true);
+		} else {
+			setHidden(false);
+		}
+	});
+
 	return (
 		<>
-			<div className="w-full hidden justify-between items-center h-[8vh] padding-x sm:flex xm:flex md:flex">
+			<motion.div
+				variants={navVariants}
+				className="w-full hidden justify-between items-center h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] sm:flex xm:flex md:flex"
+				animate={hidden ? "hidden" : "vissible"}>
 				<Link href={"/"}>
 					<Image
 						src={logo}
@@ -26,7 +42,7 @@ export default function MobileNav() {
 					onClick={() => setToggle(true)}
 					className="text-3xl cursor-pointer text-black"
 				/>
-			</div>
+			</motion.div>
 			<AnimatePresence mode="wait">
 				{toggle && (
 					<motion.div

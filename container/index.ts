@@ -36,6 +36,9 @@ export { default as Herocontact } from './contact-page/Hero';
 export { default as Form } from './contact-page/Form';
 export { default as FAQ } from './contact-page/Faq';
 export { default as Socials } from './contact-page/Socials';
+// legal pages
+export { default as Legal } from './legal-page/Legal';
+
 // workiz page
 export { default as Heroworkiz } from './workiz-page/Hero';
 export { default as Aboutworkiz } from './workiz-page/About';

@@ -5,8 +5,8 @@ import { LinkHover, TextMask } from "@/animation";
 import { footerItems, footernavbarItems } from "@/constants";
 
 export default function Footer() {
-	const phrase = ["The Engine", "Behind"];
-	const phrase1 = ["SCALING BRANDS"];
+	const phrase = ["Turn Demand", "Into"];
+	const phrase1 = ["CUSTOMERS"];
 	return (
 		<footer className="w-full min-h-screen padding-x z-30 relative pt-[40px] bg-background flex flex-col justify-between rounded-t-[20px] mt-[-20px]">
 			<div className="w-full flex justify-between sm:flex-col xm:flex-col">
@@ -38,28 +38,28 @@ export default function Footer() {
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">
 									L:
 								</h1>
-									<div className="flex flex-col gap-y-[10px]">
-										<LinkHover
-											className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-											title={`Nuvora Digital`}
-											href="/"
-										/>
-										<LinkHover
-											className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-											title={`Mumbai, Maharashtra, India`}
-											href="/"
-										/>
-										<LinkHover
-											className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-											title="Working with businesses"
-											href="/"
-										/>
-										<LinkHover
-											className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
-											title="across India"
-											href="/"
-										/>
-									</div>
+								<div className="flex flex-col gap-y-[10px]">
+									<LinkHover
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title={`Nuvora Digital`}
+										href="/"
+									/>
+									<LinkHover
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title={`Mumbai, Maharashtra, India`}
+										href="/"
+									/>
+									<LinkHover
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title="Customer Acquisition Systems"
+										href="/"
+									/>
+									<LinkHover
+										className="before:h-[1px] after:h-[1px] w-fit paragraph font-medium  capitalize flex flex-col before:bottom-[1px] after:bottom-[1px]"
+										title="For High-Value Local Businesses"
+										href="/"
+									/>
+								</div>
 							</div>
 							<div className="pt-[50px]">
 								<h1 className="paragraph font-medium font-NeueMontreal text-secondry pb-[20px]">

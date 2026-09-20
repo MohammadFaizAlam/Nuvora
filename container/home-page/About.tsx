@@ -13,22 +13,22 @@ export default function About() {
 		<section className="w-full bg-about padding-y rounded-t-[20px] z-20 relative mt-[-15px]">
 			<div className="pl-[50px] sm:px-[20px] xm:px-[20px]">
 				<h2 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					Nuvora is the one team Indian businesses call when they need their
-					website to&nbsp;
+					You don&apos;t lose customers to better competitors — you lose them
+					in the gaps. A lead messages you on&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						bring enquiries,
+						WhatsApp,
 					</span>
-					&nbsp;their Google listing to&nbsp;
+					&nbsp;gets a slow reply, and books the&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						rank in the neighbourhood,
+						competitor instead.
 					</span>
-					&nbsp;their ads to&nbsp;
+					&nbsp;Nuvora closes the gaps: your Google listing&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						bring walk-ins,
+						ranks where locals search,
 					</span>
-					&nbsp;and their phone to&nbsp;
+					&nbsp;your ads bring booked jobs, and&nbsp;
 					<span className="sub-heading font-medium font-NeueMontreal link-flash cursor-pointer">
-						actually ring.
+						every lead gets answered fast.
 					</span>
 				</h2>
 			</div>
@@ -43,14 +43,15 @@ export default function About() {
 						<div className="w-full flex gap-[30px] h-full items-end sm:items-start sm:flex-col xm:items-start xm:flex-col">
 							<div className="w-[40%] sm:w-[60%] xm:w-[60%]">
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry tracking-wide">
-									We put your website, Google Business Profile, social media,
-									ads, and lead follow-up under one roof — run by one team,
-									on one plan, measured by one number: the revenue you can
+									Your website, Google Business Profile, ads, WhatsApp
+									follow-up and reporting run as one connected system —
+									discover, capture, respond, convert, measure — owned by
+									one team and judged by one number: the revenue you can
 									trace back to us.
 								</p>
 								<p className="sub-paragraph font-medium font-NeueMontreal text-secondry pt-[30px] tracking-wide">
-									You get a fixed stack of deliverables every month, not a
-									vague strategy retainer. You always know what we are
+									We start with an audit, prove value in a focused sprint,
+									and only then talk retainer. You always know what we are
 									building, what is live, and what it brought in.
 								</p>
 							</div>
@@ -80,8 +81,8 @@ export default function About() {
 						className="w-fit flex items-center justify-between bg-secondry cursor-pointer rounded-full group"
 						onMouseEnter={() => setHovered(true)}
 						onMouseLeave={() => setHovered(false)}>
-							<RoundButton
-								href="/team"
+						<RoundButton
+							href="/team"
 							title="read more"
 							bgcolor="#000"
 							className="bg-white text-black"
@@ -90,15 +91,13 @@ export default function About() {
 					</div>
 				</div>
 				<div
-					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${
-						hovered && "scale-[0.96]"
-					}`}>
+					className={`w-[50%] sm:w-full xm:w-full transition transform duration-[1.5s] ease-[.215,.61,.355,1] rounded-[15px] overflow-hidden ${hovered && "scale-[0.96]"
+						}`}>
 					<Image
 						src={aboutImg}
 						alt="about-img"
-						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${
-							hovered && "scale-[1.09]"
-						}`}
+						className={`w-full h-full transition transform duration-[2s] ease-[.215,.61,.355,1] ${hovered && "scale-[1.09]"
+							}`}
 					/>
 				</div>
 			</div>

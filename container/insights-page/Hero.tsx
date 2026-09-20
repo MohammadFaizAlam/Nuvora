@@ -22,7 +22,7 @@ export default function Hero() {
 		},
 		{
 			id: 4,
-			title: "social media",
+			title: "speed to lead",
 			href: "/",
 		},
 	];
@@ -102,7 +102,7 @@ export default function Hero() {
 										</div>
 										<div className="flex flex-col gap-[7px] mt-[10px]">
 											<h3 className="paragraph font-NeueMontreal font-normal text-secondry">
-												Why your restaurant is invisible on Google Maps — <br /> and how to fix it.
+												{item.title}
 											</h3>
 											<p className="paragraph font-NeueMontreal font-normal text-gray-400">
 												{item.subTitle}

@@ -16,28 +16,23 @@ export default function About() {
 							<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 								<div className="flex flex-col gap-y-[20px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										A digital presence and growth company for
-										<br /> restaurants, cafés, salons, clinics,
-										<br /> real-estate businesses, interior designers,
-										<br /> and local retailers. We exist because an
-										<br />
-										owner shouldn&apos;t need three vendors, a
-										<br />
-										freelancer, and a cousin &quot;who does
-										<br />
-										Instagram&quot; just to be visible online.
+										Customer-acquisition infrastructure for
+										<br /> clinics, high-value home services, interior
+										<br /> studios, and high-ticket local firms.
+										<br /> We exist because an owner shouldn&apos;t
+										<br /> lose revenue juggling three disconnected
+										<br /> agencies and a freelancer who vanishes
+										<br /> when ad spend stops converting.
 									</p>
 								</div>
 								<div className="flex flex-col gap-y-[20px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										So we put everything that brings a customer
-										<br />
-										to your door — website, Google, social,
-										<br /> ads, reviews, and lead follow-up — into
-										<br />
-										one revenue-focused stack, delivered as a
-										<br /> standard system. Not a custom science
-										<br /> project. The Engine Behind Scaling Brands.
+										We integrate the entire customer journey —
+										<br /> Google visibility, conversion landing pages,
+										<br /> high-intent ads, instant WhatsApp follow-up,
+										<br /> and revenue attribution — into one operating
+										<br /> engine. Predictable customer flow, proven
+										<br /> with data before asking for scale.
 									</p>
 								</div>
 							</div>

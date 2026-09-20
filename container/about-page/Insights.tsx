@@ -53,7 +53,7 @@ export default function Insights() {
 											</div>
 											<div className="flex flex-col gap-[7px]">
 												<h3 className="text-[20px] leading-[30px] font-NeueMontreal font-normal text-secondry">
-													Why your restaurant is invisible on Google Maps: <br /> and how to fix it.
+													{item.title}
 												</h3>
 												<p className="text-[20px] leading-[30px] font-NeueMontreal font-normal text-gray-400">
 													{item.subTitle}

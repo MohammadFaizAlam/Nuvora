@@ -15,10 +15,10 @@ export default function App({
 	return (
 		<>
 			<Head>
-				<title>Nuvora | Digital Marketing for Small Businesses in Mumbai</title>
+				<title>Nuvora | Lead Generation & Customer Acquisition Systems for Local Businesses in Mumbai</title>
 				<meta
 					name="description"
-					content="Nuvora runs your website, Google Business Profile, social media, ads and reviews as one stack — built to bring Indian SMEs real enquiries."
+					content="Nuvora builds and operates the system that turns local demand into measurable customers — Google visibility, high-converting websites, ads and WhatsApp follow-up, connected end to end and tracked to revenue."
 				/>
 				<link rel="icon" href="/Dark%20Nuvora%20logo.jpg" type="image/jpeg" />
 				<link rel="shortcut icon" href="/Dark%20Nuvora%20logo.jpg" type="image/jpeg" />

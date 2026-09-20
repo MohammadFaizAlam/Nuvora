@@ -20,8 +20,8 @@ export default function Partners() {
 		<section className="w-full bg-background">
 			<div>
 				<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry">
-					Built for the businesses that
-					<br className="sm:hidden xm:hidden" /> keep a city running:
+					Engineered for established,
+					<br className="sm:hidden xm:hidden" /> high-value local operators:
 				</h1>
 			</div>
 			<div className="w-full border-t border-[#21212155] mt-[50px]">

@@ -8,7 +8,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 export default function Ready() {
 	const container = useRef(null);
-	const phrase = ["Ready", "to start", "the project"];
+	const phrase = ["Ready", "to stop", "losing leads"];
 
 	const { scrollYProgress } = useScroll({
 		target: container,
@@ -44,9 +44,9 @@ export default function Ready() {
 							<Rounded
 								className="py-[6px]"
 								backgroundColor="#212121">
-									<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-white text-black">
-										hello@nuvora.in
-									</p>
+								<p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-white text-black">
+									hello@nuvora.in
+								</p>
 								<div className="bg-black group-hover:bg-white text-black p-[10px] rounded-full scale-[0.3] mr-[10px] group-hover:scale-[0.9] transition-all z-10 transform duration-[0.3s] ease-[.215,.61,.355,1]">
 									<ArrowUpRight
 										strokeWidth={1.5}

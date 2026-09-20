@@ -20,13 +20,13 @@ export default function Principles() {
 						/>
 						<div className="flex flex-col gap-[20px]">
 						<p className="paragraph font-NeueMontreal text-secondry">
-							Every rupee we spend has to answer to revenue. <br />
-							We don&apos;t report likes, impressions, or &quot;brand
-							<br /> reach&quot; — we report booked tables, answered
-							<br /> calls, filled appointments, and enquiries you
-							<br /> can count. If a channel can&apos;t show you its
-							<br /> contribution to the till, we&apos;ll tell you to
-							<br /> cut it.
+							Every rupee spent must connect to revenue. <br />
+							We don&apos;t report impressions, clicks, or vague
+							<br /> &quot;brand reach&quot; — we track qualified phone
+							<br /> calls, WhatsApp inquiries, and verified clients.
+							<br /> If a channel cannot prove its direct financial
+							<br /> impact on your bottom line, we tell you to
+							<br /> cut it immediately.
 						</p>
 						</div>
 					</div>
@@ -38,12 +38,13 @@ export default function Principles() {
 						/>
 						<div className="flex flex-col gap-[20px]">
 							<p className="paragraph font-NeueMontreal text-secondry">
-								We don&apos;t build on guesswork. Every client who
-								<br /> works with us teaches us what actually moves
-								<br /> the needle for an Indian SME — and what we
-								<br /> learn from one café or clinic gets built into
-								<br /> the stack for the next. We observe before we
-								<br /> build, every single time.
+								We prove value fast before asking for scale. <br />
+								We begin with a focused audit to isolate lead
+								<br /> leakage, run a targeted sprint to establish
+								<br /> undeniable proof of ROI, and only then discuss
+								<br /> a retainer. You never commit to an open-ended
+								<br /> contract without seeing visible, verified
+								<br /> cause and effect first.
 							</p>
 						</div>
 					</div>

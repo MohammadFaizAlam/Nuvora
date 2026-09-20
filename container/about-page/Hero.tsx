@@ -50,28 +50,27 @@ export default function Hero() {
 								<div className="w-[50%] flex flex-col gap-y-[40px] sm:w-full xm:w-full">
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											Nuvora was built on a simple
-											<br /> observation: a growing business
+											Nuvora was built on a stark
+											<br /> reality: high-value local businesses
 											<br />
-											shouldn&apos;t need one person for its
-											<br /> website, another for Google, a <br />
-											third for Instagram and a fourth
+											don&apos;t fail from bad marketing.
+											<br /> They lose money in handoffs between
+											<br /> disconnected vendors who take zero
 											<br />
-											promising &quot;results&quot; on ads.
+											accountability for net revenue.
 										</p>
 									</div>
 									<div className="flex flex-col gap-y-[20px]">
 										<p className="paragraph font-NeueMontreal text-secondry">
-											So we consolidated all of it — website,
+											We build and operate the complete
 											<br />
-											Google, social media, ads, reviews
-											<br /> and lead follow-up — into one
+											infrastructure — search visibility,
+											<br /> conversion pages, targeted ads,
+											<br /> and automated WhatsApp triage —
 											<br />
-											revenue-focused stack, run by one
+											as one connected system measured
 											<br />
-											team that answers to one number:
-											<br />
-											yours.
+											by verified client revenue.
 										</p>
 									</div>
 								</div>
@@ -102,8 +101,8 @@ export default function Hero() {
 			</div>
 			<div className="padding-x">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
-					We keep local businesses from being
-					<br className="sm:hidden xm:hidden" /> invisible online.
+					We turn high-intent local demand into
+					<br className="sm:hidden xm:hidden" /> accountable, measurable customers.
 				</h1>
 			</div>
 		</section>

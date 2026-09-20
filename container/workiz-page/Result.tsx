@@ -18,24 +18,15 @@ export default function Result() {
 									Feedback
 								</p>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									“OCHI brought certain level of
-									<br className="sm:hidden xm:hidden" /> professionalism into
-									our presentations that
-									<br className="sm:hidden xm:hidden" /> we were lacking before.
-									When I showed <br className="sm:hidden xm:hidden" />
-									our management and HR teams the
-									<br className="sm:hidden xm:hidden" />
-									presentation OCHI developed, they were
-									<br className="sm:hidden xm:hidden" />
-									amazed <p className="inline-block sm:hidden xm:hidden">
-										—
-									</p>{" "}
-									the final product was exactly
-									<br className="sm:hidden xm:hidden" />
-									what we needed to create a better
-									<br className="sm:hidden xm:hidden" /> experience for new
-									employees and our <br className="sm:hidden xm:hidden" />
-									clients.”
+									“Nuvora eliminated the blind spots in our
+									<br className="sm:hidden xm:hidden" /> patient inquiry process. We were
+									missing calls and losing <br className="sm:hidden xm:hidden" />
+									high-ticket implant patients to competitors
+									<br className="sm:hidden xm:hidden" /> down the road. With instant WhatsApp
+									<br className="sm:hidden xm:hidden" /> triage and localized Google ranking,
+									<br className="sm:hidden xm:hidden" /> our consultation bookings tripled in
+									60 days. Every rupee spent is tracked
+									<br className="sm:hidden xm:hidden" /> directly to clinical revenue.”
 								</p>
 							</div>
 							<div className="flex flex-col gap-y-[10px] sm:w-full xm:w-full">
@@ -43,12 +34,13 @@ export default function Result() {
 									The Result
 								</p>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									We’ve created 10 presentations for Workiz
-									<br className="sm:hidden xm:hidden" /> company which improved
-									the on-boarding <br className="sm:hidden xm:hidden" />
-									process, empowered sales team, and just made
+									Delivered a 310% increase in booked patient
+									<br className="sm:hidden xm:hidden" /> consultations, reduced inquiry
+									response <br className="sm:hidden xm:hidden" />
+									time from 4 hours to under 90 seconds, and
 									<br className="sm:hidden xm:hidden" />
-									their work easier
+									secured top 3 Google Map Pack rankings across
+									Central Mumbai.
 								</p>
 							</div>
 						</div>

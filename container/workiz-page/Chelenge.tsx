@@ -28,15 +28,14 @@ export default function Chelenge() {
 						<div className="w-1/2 sm:w-full xm:w-full">
 							<div className="flex flex-col gap-y-[20px]">
 								<p className="paragraph font-NeueMontreal text-secondry">
-									The goal was to build straightforward, <br /> professional,
-									but emotional presentations
-									<br /> that are delivered to colleagues and
+									The practice was spending heavily on ads <br /> but losing over half
+									of incoming patient enquiries
+									<br /> due to slow front-desk response times and
 									<br />
-									clients. We’ve tailored the decks for the <br />
-									audiences and amplified the presentation
-									<br />
-									materials to match the brand’s quality and <br />
-									improve the message.
+									unoptimized landing pages. Nuvora engineered <br />
+									a complete customer acquisition system: local <br />
+									Map Pack dominance, frictionless WhatsApp <br />
+									triage, and closed-loop revenue attribution.
 								</p>
 							</div>
 						</div>

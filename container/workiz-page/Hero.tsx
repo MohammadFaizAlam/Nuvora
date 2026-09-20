@@ -31,7 +31,7 @@ export default function Hero() {
 										/>
 									</motion.span>
 									<h1 className="heading tracking-[-1.3px] text-[#212121] font-semibold font-FoundersGrotesk uppercase">
-										WORKIZ EASY
+										CLINIC SCALE
 									</h1>
 								</div>
 							</h1>
@@ -47,8 +47,8 @@ export default function Hero() {
 							<div className="w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col flex gap-[20px]">
 								<div className="w-[50%] sm:w-full xm:w-full flex flex-col gap-y-[40px]">
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Onboarding, internal and sales <br />
-										presentations for software startup.
+										End-to-end customer acquisition <br />
+										infrastructure for specialized clinic.
 									</p>
 								</div>
 								<div className="flex flex-col gap-[10px]">
@@ -60,7 +60,7 @@ export default function Hero() {
 												className="py-[3px]"
 												backgroundColor="#000">
 												<p className="z-10 px-[15px]">
-													onboarding presentations
+													local search &amp; 3-pack
 												</p>
 											</Rounded>
 										</Link>
@@ -73,7 +73,7 @@ export default function Hero() {
 												className="py-[3px]"
 												backgroundColor="#000">
 												<p className="z-10 px-[15px]">
-													policy deck and playbook
+													whatsapp speed-to-lead
 												</p>
 											</Rounded>
 										</Link>
@@ -85,7 +85,7 @@ export default function Hero() {
 											<Rounded
 												className="py-[3px]"
 												backgroundColor="#000">
-												<p className="z-10 px-[15px]">sales deck</p>
+												<p className="z-10 px-[15px]">revenue attribution</p>
 											</Rounded>
 										</Link>
 									</div>

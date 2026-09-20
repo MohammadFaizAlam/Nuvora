@@ -6,7 +6,7 @@ export default function About() {
 		<section className="w-full padding-y">
 			<div className="w-full flex flex-col">
 				<h2 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-					Compony
+					Company
 				</h2>
 				<div className="w-full border-t border-[#21212155] pt-[20px]">
 					<div className="w-full flex sm:flex-col xm:flex-col justify-between gap-[15px] padding-x">
@@ -18,12 +18,12 @@ export default function About() {
 						<div className="w-1/2 sm:w-full xm:w-full flex justify-between gap-[10px] sm:flex-col xm:flex-col">
 							<div>
 								<p className="paragraph font-NeueMontreal text-secondry">
-									Built by home service professionals on a
-									<br className="sm:hidden xm:hidden" /> mission to make your
-									“work easy,” <br className="sm:hidden xm:hidden" />
-									Workiz empowers service businesses to get more
-									<br className="sm:hidden xm:hidden" /> jobs done, work easier,
-									and grow smarter.
+									Apex Dental &amp; Implant Centre is a premier
+									<br className="sm:hidden xm:hidden" /> multi-speciality practice in Mumbai
+									delivering high-ticket <br className="sm:hidden xm:hidden" />
+									restorative and surgical dental care to
+									<br className="sm:hidden xm:hidden" /> thousands of local patients every
+									year.
 								</p>
 							</div>
 							<div className="flex flex-col gap-y-[10px]">
@@ -32,15 +32,15 @@ export default function About() {
 										Industry:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										Service Management Software
+										Specialist Healthcare &amp; Dental
 									</p>
 								</div>
 								<div>
 									<p className="paragraph font-NeueMontreal text-secondry underline">
-										Company Size:
+										Practice Size:
 									</p>
 									<p className="paragraph font-NeueMontreal text-secondry">
-										100+ People
+										15+ Specialists &amp; Operatories
 									</p>
 								</div>
 							</div>

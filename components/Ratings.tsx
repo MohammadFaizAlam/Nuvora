@@ -18,7 +18,7 @@ export default function Ratings() {
 						<Link
 							className="xl:text-[18px] xl:leading-[18px] text-[14px] leading-[14px] text-about uppercase font-normal font-NeueMontreal tracking-wider"
 							href={"/"}>
-							&copy; Ochi
+							&copy; Nuvora 2026
 						</Link>
 					</div>
 				</div>

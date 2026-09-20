@@ -12,21 +12,21 @@ export default function Capibilyties() {
 			<div className="w-[82%] sm:w-full xm:w-full padding-x mb-[70px]">
 				<h1 className="sub-heading font-medium font-NeueMontreal text-secondry">
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-						Let’s be honest.
+						The real issue:
 					</span>
-					&nbsp;A customer today checks you on Google, Instagram and your
-					website before they ever walk in or call. If any one of those looks
-					dead, they go to the competitor down the road. Focus on running your
-					business <span className="sm:hidden xm:hidden">—</span>
+					&nbsp;Local businesses don&apos;t fail from lack of demand — they lose
+					revenue in fragmented handoffs. A customer discovers you on Google,
+					messages on WhatsApp, waits hours for a reply, and books the competitor.
+					<span className="sm:hidden xm:hidden">—</span>
 					<span className="xl:link-flash lg:link-flash md:link-flash cursor-pointer">
-						&nbsp;Nuvora keeps all those doors open, every day.
+						&nbsp;Nuvora closes the leaks by operating one accountable acquisition engine.
 					</span>
 				</h1>
 			</div>
 			<div className="w-full flex sm:flex-col xm:flex-col justify-between py-[20px] padding-x border-t border-[#21212155] sm:gap-[15px] xm:gap-[15px]">
 				<div className="w-[10%] sm:w-full xm:w-full">
 						<h3 className="paragraph font-medium text-secondry font-NeueMontreal">
-							The Local Stack:
+							Core Layers:
 						</h3>
 				</div>
 				<div className="w-[90%] flex flex-col gap-y-[30px]">

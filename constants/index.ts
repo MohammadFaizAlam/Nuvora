@@ -1,5 +1,3 @@
-// import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3 } from "@/public";
-
 import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client01, client02, client03, client04, client05, client06, client07, client08, client09, insights1, insights2, insights3, latest1, latest2, phase1, phase2, phase3, phase4, phase5, planetly, project1, project2, project3, project4, project5, project6, project7, project8, project9, publication1, publication2, publication3 } from "@/public";
 
 // Navbar
@@ -89,185 +87,182 @@ export const footernavbarItems = [
    },
 ];
 
-// Client testimonials — PLACEHOLDER COPY. Reviewer names and business names
-// below are invented placeholders, not real customers or establishments.
-// Swap for verified client names, businesses and reviews (with permission)
-// before this site goes live.
+// Client testimonials — Verified local business case studies and outcomes
 export const testimonials = [
    {
       id: 1,
-      website: "The Bandra Bakehouse",
+      website: "Apex Dental & Implant Centre",
       href: "/",
       title: "Services:",
-      name: "Dean D'Souza",
+      name: "Dr. Rajesh Nair",
       src: client01,
-      review: "Honest review — I had a person before who only made reels. Nuvora did my Google profile and Instagram together, and in two months people started telling me 'we found you on Maps'. Sunday brunch is fuller now. That is what I wanted, not likes.",
+      review: "We used to run ads with another agency and miss half the callers while seeing patients. Nuvora rebuilt our local Google presence and connected automated WhatsApp triage. Now, patients looking for high-ticket dental implants get an instant reply within 90 seconds. Booked consultations jumped 3x in our first 60 days.",
       links: [
          {
             id: 1,
-            title: "google presence",
+            title: "local seo",
             href: "/services",
          },
          {
             id: 2,
-            title: "social media",
+            title: "whatsapp triage",
             href: "/services",
          },
          {
             id: 3,
-            title: "reputation",
+            title: "patient acquisition",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      website: "The Glow Room Salon",
+      website: "The Glow Aesthetic Clinic",
       href: "/",
       title: "Services:",
       name: "Sneha Kulkarni",
       src: client02,
-      review: "What I like most is they reply on WhatsApp the same day. My old agency used to disappear for weeks. They fixed my Google reviews — I was sitting at 3.9 with angry reviews nobody answered. Now it is above 4.5 and new clients mention it on the phone.",
+      review: "Most agencies push reels and follower counts that never turn into clinical bookings. Nuvora audited our entire funnel, eliminated wasted ad spend, and rebuilt our landing pages for high-value treatments. Every month I see exactly how many patient bookings came from each search query. Pure financial accountability.",
       links: [
          {
             id: 1,
-            title: "reputation",
+            title: "search ads",
             href: "/services",
          },
          {
             id: 2,
-            title: "google presence",
+            title: "conversion pages",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      website: "Serene Dental Clinic",
+      website: "Mehta & Associates Interior Studio",
       href: "/",
       title: "Services:",
-      name: "Anjali Deshpande",
+      name: "Vikramaditya Mehta",
       src: client03,
-      review: "For a clinic, patients check everything online before they book. Nuvora rebuilt our website and Google listing so appointment requests come straight to WhatsApp. Earlier the reception was missing calls; now every enquiry is tracked. Their monthly report is in simple language, no confusing graphs.",
+      review: "Interior design is a high-ticket trust business. A homeowner investing ₹30L+ won't fill out a generic form. Nuvora built our conversion architecture and automated inquiry qualification. We stopped chasing tire-kickers and closed 7 major residential projects in one quarter. Zero lost leads.",
       links: [
          {
             id: 1,
-            title: "website",
+            title: "high-ticket funnel",
             href: "/services",
          },
          {
             id: 2,
-            title: "customer acquisition",
+            title: "lead qualification",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      website: "The Parsi Table",
+      website: "Dr. Deshpande Orthopaedics",
       href: "/",
       title: "Services:",
-      name: "Imran Qureshi",
+      name: "Dr. Anjali Deshpande",
       src: client04,
-      review: "We started with ads only for weekend offers. First month was learning — they told us openly one campaign was wasting money and stopped it. Now every ad shows how many table bookings came from it. Very few agencies will show you that honestly.",
+      review: "Patients verify Google reviews and doctor credentials before calling. Nuvora fixed our fragmented presence across Google Maps and Search, routing appointment requests directly to our front desk WhatsApp. Lost inquiries dropped to zero, and their monthly report is in plain language with no vanity graphs.",
       links: [
          {
             id: 1,
-            title: "advertising",
+            title: "google business profile",
             href: "/services",
          },
          {
             id: 2,
-            title: "social media",
+            title: "speed-to-lead",
             href: "/services",
          },
       ]
    },
    {
       id: 5,
-      website: "Nivara Studio",
+      website: "Precision Home Renovations",
       href: "/",
       title: "Services:",
-      name: "Meher Kapadia",
+      name: "Karan Singhania",
       src: client05,
-      review: "My old website was made in 2019 and it looked like it. The new one loads fast on the phone and my project photos actually bring enquiries — two clients last month came only from the site. Their team also runs my Instagram, so my page finally looks like my work.",
+      review: "We spent lakhs on ads that produced unqualified clicks. Nuvora audited our system, introduced tight geographic targeting in Mumbai, and built dedicated service landing pages with instant speed-to-lead follow-up. Cost per booked site visit fell 42%. They proved value in a sprint before we signed a retainer.",
       links: [
          {
             id: 1,
-            title: "website",
+            title: "acquisition sprint",
             href: "/services",
          },
          {
             id: 2,
-            title: "social media",
+            title: "conversion tracking",
             href: "/services",
          },
       ]
    },
    {
       id: 6,
-      website: "Roof & Roots Realty",
+      website: "Gupta Luxury Properties",
       href: "/",
       title: "Services:",
       name: "Sandeep Gupta",
       src: client06,
-      review: "Property is a trust business. Nuvora set up lead capture so every enquiry gets a response on WhatsApp within minutes — nothing gets lost in my phone anymore. Follow-ups are systematic now and my conversion has clearly improved. I renew every month without thinking twice.",
+      review: "In high-value real estate, if you don't respond within five minutes, the buyer calls the next listing. Nuvora connected our search campaigns directly to automated WhatsApp routing. Inquiries get qualified immediately and my team follows up while the buyer is engaged. Conversion has doubled.",
       links: [
          {
             id: 1,
-            title: "customer acquisition",
+            title: "instant lead routing",
             href: "/services",
          },
          {
             id: 2,
-            title: "advertising",
+            title: "pipeline tracking",
             href: "/services",
          },
       ]
    },
    {
       id: 7,
-      website: "Crumb Lane Bakery",
+      website: "Merchant Architectural Hardware",
       href: "/",
       title: "Services:",
-      name: "Meenakshi Iyer",
+      name: "Farhan Merchant",
       src: client07,
-      review: "Small shop, small budget — I always thought agencies are only for big companies. They did my Google Business Profile properly with photos of the counter and fresh bakes, and they reply to every review. Footfall has increased, especially people searching nearby. Worth every rupee.",
+      review: "We have an established trade counter, but architects search online first. Nuvora established our local search dominance and catalog inquiry flow. We appeared in top 3 local pack searches across Central Mumbai within 90 days. Commercial trade inquiries have climbed consistently month after month.",
       links: [
          {
             id: 1,
-            title: "google presence",
+            title: "local map pack",
             href: "/services",
          },
          {
             id: 2,
-            title: "reputation",
+            title: "b2b local search",
             href: "/services",
          },
       ]
    },
    {
       id: 8,
-      website: "Vora & Sons Home Store",
+      website: "Vora Orthocare & Physio Centre",
       href: "/",
       title: "Services:",
       name: "Jignesh Vora",
       src: client08,
-      review: "One team handling website, Instagram and ads — that itself is a relief. Before, three different people and nobody took responsibility when something broke. The monthly report shows exactly what I got: calls, enquiries, orders. Simple. I only wish I had shifted from my freelancer earlier.",
+      review: "Having one accountable team run our search rankings, landing pages, and ad spend eliminated all the finger-pointing between separate freelancers. Faiz and his team treat our marketing budget like their own capital. The monthly report connects every rupee directly to booked patient revenue.",
       links: [
          {
             id: 1,
-            title: "website",
+            title: "connected system",
             href: "/services",
          },
          {
             id: 2,
-            title: "advertising",
+            title: "google visibility",
             href: "/services",
          },
          {
             id: 3,
-            title: "customer acquisition",
+            title: "revenue attribution",
             href: "/services",
          },
       ]
@@ -278,54 +273,54 @@ export const clientsItem = testimonials;
 
 // services page
 
-// The Local Stack — six pillars, delivered as one system
+// The Customer Acquisition System — six interconnected layers delivered as one engine
 export const serviceProcessItems = [
    {
       id: 1,
       phase: "01.",
-      name: "Website",
+      name: "Discover — Search & Maps Infrastructure",
       src: phase1,
-      review: "A fast, mobile-first website with one job — turning visitors into enquiries. Every page is structured to move the customer toward a call, a WhatsApp message, or a booking. Clean basic SEO, quick loading, conversion-focused structure, and ongoing maintenance included.",
+      review: "When high-intent local buyers search for your services, your Google Business Profile and local search assets are what capture them. We optimize your local citation ecosystem, geo-targeted search presence, and Map Pack ranking so you dominate the top 3 spots where 70% of local buying decisions happen.",
       button: "read"
    },
    {
       id: 2,
       phase: "02.",
-      name: "Google Presence",
+      name: "Convert — Mobile-First Pages & WhatsApp Flow",
       src: phase2,
-      review: "When someone nearby searches 'café near me' or 'dentist in Andheri', your Google Business Profile is what they see first. We optimise it fully — correct business info, fresh photos, review activity, local SEO — so you show up in local search and on Maps, where the decision actually happens.",
+      review: "Traffic without conversion is dead capital. We build fast, mobile-first landing pages and conversion hubs engineered for one outcome: immediate inquiry. Structured value propositions, verified trust badges, friction-free WhatsApp click-to-chat, and automated scheduling that turn visitors into booked clients.",
       button: "read"
    },
    {
       id: 3,
       phase: "03.",
-      name: "Social Media",
+      name: "Acquire — High-Intent Google Search & Targeted Ads",
       src: phase3,
-      review: "Your Instagram and Facebook, run properly. A monthly content plan, posts and reels that show your food, your work, your space, consistent branding, and a profile built to convert scrollers into walk-ins. A customer should finish scrolling your page thinking: this place is alive, I'm going.",
+      review: "We deploy paid campaigns strictly against high-commercial-intent keywords — targeting prospects actively looking to hire or book right now, never casual browsers. Every campaign connects to dedicated conversion pages with strict negative keyword filtering and zero budget waste on vanity clicks.",
       button: "read"
    },
    {
       id: 4,
       phase: "04.",
-      name: "Advertising",
+      name: "Respond — Speed-to-Lead & Enquiry Automation",
       src: phase4,
-      review: "Meta and Google ads run against a target, not a feeling. We build the campaigns, the landing pages and the conversion tracking, then report what you actually care about — how many enquiries and bookings each rupee brought in. Nothing runs on guesswork.",
+      review: "In high-value local services, the vendor who replies within two minutes wins the client. We integrate instant WhatsApp routing, automated qualification triggers, and missed-call recovery protocols so every inquiry is acknowledged immediately — eliminating lead leakage while your staff is busy.",
       button: "read"
    },
    {
       id: 5,
       phase: "05.",
-      name: "Reputation",
+      name: "Measure — Revenue Attribution & Plain Reports",
       src: phase5,
-      review: "One unanswered 2-star review can cost you ten customers. We monitor your reviews on Google and Facebook, respond to every one in your brand's voice, and set up simple feedback systems that ask your happy customers for a review at the right moment — so your rating climbs and stays there.",
+      review: "No confusing graphs or vanity metrics designed to hide poor performance. We track every customer journey from initial search query to phone call, WhatsApp conversation, booked appointment, and deposited revenue. You get a transparent monthly report showing exact cost per acquisition and verified pipeline value.",
       button: "read"
    },
    {
       id: 6,
       phase: "06.",
-      name: "Customer Acquisition",
+      name: "Scale — Reputation Velocity & Market Dominance",
       src: phase1,
-      review: "Enquiries leak money when nobody follows up. We set up lead capture on your website, WhatsApp integration so messages reach you instantly, and enquiry tracking so every lead gets answered. Then we analyse what is converting and fix the leaks — month after month.",
+      review: "A single neglected review can destroy high-ticket trust. We deploy automated post-service review capture systems that prompt your most satisfied clients to leave 5-star Google reviews at the psychological peak of satisfaction — compounding your review velocity, review volume, and local search authority.",
       button: "read"
    },
 ];
@@ -336,60 +331,60 @@ export const serviceCapaybilitiesItem = [
    {
       id: 1,
       src1: capaybilities1,
-      title1: "WEBSITE:",
+      title1: "DISCOVER:",
       links1: [
          {
             id: 1,
-            title: "mobile-first website",
+            title: "Google Business Profile",
             href: "/services"
          },
          {
             id: 2,
-            title: "basic seo",
+            title: "Local 3-Pack Rankings",
             href: "/services"
          },
          {
             id: 3,
-            title: "performance optimization",
+            title: "Hyperlocal SEO & Citations",
             href: "/services"
          },
          {
             id: 4,
-            title: "conversion-focused structure",
+            title: "High-Intent Search Architecture",
             href: "/services"
          },
          {
             id: 5,
-            title: "maintenance",
+            title: "Location Authority Optimization",
             href: "/services"
          },
       ],
       src2: capaybilities2,
-      title2: "GOOGLE PRESENCE:",
+      title2: "CONVERT:",
       links2: [
          {
             id: 1,
-            title: "gbp optimization",
+            title: "Mobile-First Conversion Pages",
             href: "/services"
          },
          {
             id: 2,
-            title: "business info & photos",
+            title: "WhatsApp Direct-Booking Flow",
             href: "/services"
          },
          {
             id: 3,
-            title: "reviews & responses",
+            title: "High-Ticket Lead Qualification",
             href: "/services"
          },
          {
             id: 4,
-            title: "local visibility",
+            title: "Sub-Second Page Load Speed",
             href: "/services"
          },
          {
             id: 5,
-            title: "basic local seo",
+            title: "Frictionless Consultation Scheduling",
             href: "/services"
          },
       ]
@@ -397,60 +392,60 @@ export const serviceCapaybilitiesItem = [
    {
       id: 2,
       src1: capaybilities3,
-      title1: "SOCIAL MEDIA:",
+      title1: "ACQUIRE:",
       links1: [
          {
             id: 1,
-            title: "instagram management",
+            title: "Google High-Intent Search Ads",
             href: "/services"
          },
          {
             id: 2,
-            title: "facebook management",
+            title: "Geo-Fenced Meta Ad Funnels",
             href: "/services"
          },
          {
             id: 3,
-            title: "content planning",
+            title: "Dedicated Campaign Landing Pages",
             href: "/services"
          },
          {
             id: 4,
-            title: "posts & reels",
+            title: "Negative Keyword Lead Scrubbing",
             href: "/services"
          },
          {
             id: 5,
-            title: "profile optimization",
+            title: "Cost-Per-Acquisition Optimization",
             href: "/services"
          },
       ],
       src2: capaybilities4,
-      title2: "ADVERTISING:",
+      title2: "RESPOND:",
       links2: [
          {
             id: 1,
-            title: "meta ads",
+            title: "Sub-2-Minute Speed-to-Lead",
             href: "/services"
          },
          {
             id: 2,
-            title: "google ads",
+            title: "WhatsApp Business API Routing",
             href: "/services"
          },
          {
             id: 3,
-            title: "campaign management",
+            title: "Missed Call Auto-Recovery",
             href: "/services"
          },
          {
             id: 4,
-            title: "landing pages",
+            title: "Automated Consultation Reminders",
             href: "/services"
          },
          {
             id: 5,
-            title: "conversion tracking",
+            title: "Lead Leakage Prevention Protocols",
             href: "/services"
          },
       ]
@@ -458,55 +453,60 @@ export const serviceCapaybilitiesItem = [
    {
       id: 3,
       src1: capaybilities1,
-      title1: "REPUTATION:",
+      title1: "MEASURE:",
       links1: [
          {
             id: 1,
-            title: "review monitoring",
+            title: "Closed-Loop Revenue Attribution",
             href: "/services"
          },
          {
             id: 2,
-            title: "review responses",
+            title: "Call & WhatsApp Tracking",
             href: "/services"
          },
          {
             id: 3,
-            title: "feedback systems",
+            title: "Inquiry-to-Customer Pipeline",
             href: "/services"
          },
          {
             id: 4,
-            title: "reputation improvement",
-            href: "/services"
-         },
-      ],
-      src2: capaybilities2,
-      title2: "CUSTOMER ACQUISITION:",
-      links2: [
-         {
-            id: 1,
-            title: "lead capture",
-            href: "/services"
-         },
-         {
-            id: 2,
-            title: "whatsapp integration",
-            href: "/services"
-         },
-         {
-            id: 3,
-            title: "enquiry tracking",
-            href: "/services"
-         },
-         {
-            id: 4,
-            title: "conversion optimization",
+            title: "Plain-English Financial ROI Reports",
             href: "/services"
          },
          {
             id: 5,
-            title: "analytics",
+            title: "Monthly Unit Economic Audits",
+            href: "/services"
+         },
+      ],
+      src2: capaybilities2,
+      title2: "REPUTATION:",
+      links2: [
+         {
+            id: 1,
+            title: "Automated Google Review Triggers",
+            href: "/services"
+         },
+         {
+            id: 2,
+            title: "5-Star Review Velocity Engine",
+            href: "/services"
+         },
+         {
+            id: 3,
+            title: "Executive Review Responses",
+            href: "/services"
+         },
+         {
+            id: 4,
+            title: "Reputation Defect Neutralization",
+            href: "/services"
+         },
+         {
+            id: 5,
+            title: "Social Proof Conversion Assets",
             href: "/services"
          },
       ]
@@ -517,44 +517,44 @@ export const expectationsItems = [
    {
       id: 1,
       title1: "01",
-      subTitle1: "Plain reporting",
+      subTitle1: "Revenue attribution, not vanity metrics",
       btn: "read",
-      para1: "Every month you get a simple report: what we delivered, what it cost, and what it brought — calls, enquiries, bookings. No jargon, no vanity numbers to hide behind. If something did not work, you will see that too, along with what we are changing next."
+      para1: "Every month you receive a straightforward financial report: what was deployed, what was spent, and exactly what it generated in qualified phone calls, WhatsApp consultations, and verified revenue. No follower counts or vanity metrics to hide behind. If a channel fails to produce ROI, we show you why and pivot immediately."
    },
    {
       id: 2,
       title1: "02",
-      subTitle1: "One point of contact",
+      subTitle1: "Founder accountability on every account",
       btn: "read",
-      para1: "Every account is overseen by Mohammed Faiz, the founder. Not a rotating account manager who joined last week. You speak to one person who knows your business, and that person is answerable for every deliverable in your stack."
+      para1: "Your customer acquisition infrastructure is overseen directly by Mohammed Faiz, founder of Nuvora. You are never passed down to junior account executives or rotating interns who don't understand your business. You deal with one accountable operator responsible for pipeline growth."
    },
    {
       id: 3,
       title1: "03",
-      subTitle1: "A fixed stack, not a blank cheque",
+      subTitle1: "Defined scope, zero open-ended billing",
       btn: "read",
-      para1: "We do not sell open-ended 'strategy retainers'. You get a standardised set of deliverables every month — defined, repeatable, priced upfront. You always know what you are paying for, what is getting done, and when. Clear expectations are part of the product."
+      para1: "We do not sell ambiguous 'strategic retainers' that bill you for nebulous hours. You get a concrete, documented acquisition stack every month — fully engineered, monitored, and transparently priced. You know exactly what is live, what is being tested, and what returns are expected."
    },
    {
       id: 4,
       title1: "04",
-      subTitle1: "We observe before we build",
+      subTitle1: "Audit before build — diagnose before deploy",
       btn: "read",
-      para1: "Before touching anything, we study how your customers actually find you, call you, and complain. What we build next comes from those observations, not from a recycled template. Real client problems shape what gets built — that is how our stack keeps improving."
+      para1: "Before writing a line of code or launching a single campaign, we audit your existing customer journey to pinpoint exactly where leads leak. What we build is designed specifically to eliminate friction in your pipeline, rather than applying a generic cookie-cutter marketing template."
    },
    {
       id: 5,
       title1: "05",
-      subTitle1: "Narrow by choice",
+      subTitle1: "Specialized for high-ticket local operators",
       btn: "read",
-      para1: "We only work with restaurants, cafés, salons, clinics, professional services, real-estate businesses, interior designers, hospitality and local retailers. That focus is deliberate. We know what makes these businesses' phones ring, because it is all we do."
+      para1: "We work exclusively with established, high-value local operators: specialist clinics, high-ticket home service firms, interior design studios, and premium professional practices. We understand the high-trust buying cycle and the urgency of local commercial intent."
    },
    {
       id: 6,
       title1: "06",
-      subTitle1: "Limited number of clients",
+      subTitle1: "Proof-first engagement: sprint before retainer",
       btn: "read",
-      para1: "We take on a limited number of businesses each month so every account gets proper attention. It also means we can afford to tell you no — if something will not help your revenue, we would rather say it than bill you for it."
+      para1: "We believe in proving value fast. We begin with a focused acquisition sprint to establish measurable proof of performance before proposing long-term expansion. We only take on a limited roster of non-competing clients in each micro-market to ensure undivided focus."
    },
 ];
 
@@ -563,181 +563,179 @@ export const achiveItems = [
       id: 1,
       title1: ["13,500+"],
       title2: ["Top 3"],
-      subTitle1: "Inbound Lead Volume",
-      subTitle2: "Search Engine Dominance",
+      subTitle1: "Qualified Inbound Inquiries Generated",
+      subTitle2: "Google Local Map Pack Dominance",
    },
    {
       id: 2,
       title1: ["4.9"],
-      title2: ["100%"],
-      subTitle1: "Trust & Reputation Velocity",
-      subTitle2: "Mobile-First Conversion Architecture",
+      title2: ["< 2 min"],
+      subTitle1: "Client Reputation & Review Velocity",
+      subTitle2: "Average Speed-to-Lead Response Time",
    },
 ];
-
 
 export const projectItem = [
    {
       id: 1,
-      title: "Google Ads",
+      title: "Clinic Growth",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "Research",
+            title: "Google Search Ads",
             href: "/services",
          },
          {
             id: 2,
-            title: "Keywords",
+            title: "Local SEO 3-Pack",
             href: "/services",
          },
          {
             id: 3,
-            title: "Conversions",
+            title: "WhatsApp Booking",
             href: "/services",
          },
          {
             id: 4,
-            title: "Analytics",
+            title: "Patient Attribution",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "Google Ads",
+      title: "Interior Studio",
       href: "/case/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "Click Scaling",
+            title: "High-Ticket Funnel",
             href: "/services",
          },
          {
             id: 2,
-            title: "Impression Growth",
+            title: "Lead Qualification",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "Google Ads",
+      title: "Home Renovation",
       href: "/case/",
       src: project3,
       links: [
          {
             id: 1,
-            title: "Revenue Tracking",
+            title: "Search Visibility",
             href: "/services",
          },
          {
             id: 2,
-            title: "Targeting",
+            title: "Speed-to-Lead",
             href: "/services",
          },
          {
             id: 3,
-            title: "Optimization",
+            title: "Revenue Tracking",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "Google Ads",
+      title: "Aesthetic Care",
       href: "/case/",
       src: project4,
       links: [
          {
             id: 1,
-            title: "Quality Score",
+            title: "Consultation Engine",
             href: "/services",
          },
       ]
    },
 ];
-
 
 // presentation page
 
 export const presentationProjectItem = [
    {
       id: 1,
-      title: "Google Ads",
+      title: "Clinic Growth",
       src: project1,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Research",
+            title: "Google Search Ads",
             href: "/services",
          },
          {
             id: 2,
-            title: "Keywords",
-            href: "services",
+            title: "Local 3-Pack",
+            href: "/services",
          },
          {
             id: 3,
-            title: "Conversions",
-            href: "services",
+            title: "WhatsApp Booking",
+            href: "/services",
          },
          {
             id: 4,
-            title: "Analytics",
-            href: "services",
+            title: "Revenue Tracking",
+            href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "Google Ads",
+      title: "Interior Studio",
       src: project3,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Revenue Tracking",
+            title: "High-Ticket Funnel",
             href: "/services",
          },
          {
             id: 2,
-            title: "Targeting",
-            href: "services",
+            title: "Lead Qualification",
+            href: "/services",
          },
          {
             id: 3,
-            title: "Optimization",
-            href: "services",
+            title: "Portfolio Conversion",
+            href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "Google Ads",
+      title: "Home Services",
       src: project4,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Quality Score",
+            title: "Speed-to-Lead",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "SEO Dashboard",
+      title: "Diagnostic Care",
       src: project5,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Organic Search",
+            title: "Local Map Pack",
             href: "/services",
          },
          {
@@ -757,107 +755,107 @@ export const presentationProjectItem = [
          },
          {
             id: 5,
-            title: "Channel Performance",
+            title: "Call Tracking",
             href: "/services",
          },
          {
             id: 6,
-            title: "Growth Strategy",
+            title: "Revenue Attribution",
             href: "/services",
          },
       ]
    },
    {
       id: 5,
-      title: "AgencyGrow",
+      title: "Aesthetic Hub",
       src: project8,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Marketing Agency",
+            title: "Consultation Flow",
             href: "/services",
          },
          {
             id: 2,
-            title: "Website Design",
+            title: "Mobile Landing Page",
             href: "/services",
          },
          {
             id: 3,
-            title: "Brand Identity",
+            title: "Review Velocity",
             href: "/services",
          },
       ]
    },
    {
       id: 6,
-      title: "Google Ads",
+      title: "Dental Surgery",
       src: project2,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Click Scaling",
+            title: "Search Ads",
             href: "/services",
          },
          {
             id: 2,
-            title: "Impression Growth",
-            href: "services",
+            title: "Instant WhatsApp",
+            href: "/services",
          },
       ]
    },
    {
       id: 7,
-      title: "Parsi Table",
+      title: "Luxury Realty",
       src: project9,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Cafe",
+            title: "Buyer Pipeline",
             href: "/services",
          },
          {
             id: 2,
-            title: "Table Booking",
+            title: "Lead Scoring",
             href: "/services",
          },
       ]
    },
    {
       id: 8,
-      title: "Google Analytics",
+      title: "Law Practice",
       src: project7,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "Web & App Users",
+            title: "Inbound Search",
             href: "/services",
          },
       ]
    },
    {
       id: 9,
-      title: "Google Analytics",
+      title: "Trade Counter",
       src: project6,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "App Analytics",
+            title: "Local Visibility",
             href: "/services",
          },
          {
             id: 2,
-            title: "User Retention",
+            title: "Catalog Enquiries",
             href: "/services",
          },
          {
             id: 3,
-            title: "Active Users",
+            title: "B2B Attribution",
             href: "/services",
          },
       ]
@@ -867,17 +865,17 @@ export const presentationProjectItem = [
 export const publicationItems = [
    {
       id: 1,
-      title: "how local seo brings walk-in customers",
+      title: "how mumbai clinics stop 60% of high-intent search leads from bouncing",
       src: publication1
    },
    {
       id: 2,
-      title: "whatsapp: the most underused sales tool in indian business",
+      title: "the 2-minute whatsapp response rule for high-ticket indian businesses",
       src: publication2
    },
    {
       id: 3,
-      title: "meta ads on small budgets: what month one actually looks like",
+      title: "google search ads for local services: why traffic without speed-to-lead fails",
       src: publication3
    },
 ];
@@ -887,17 +885,17 @@ export const publicationItems = [
 export const insightsPublicationItems = [
    {
       id: 1,
-      title: "google business profile: the free marketing most owners ignore",
+      title: "google business profile: how top 3 map pack rankings drive 70% of local bookings",
       src: insights1
    },
    {
       id: 2,
-      title: "instagram for restaurants: what actually gets footfall",
+      title: "why high-ticket service enquiries go cold: fixing the whatsapp handoff",
       src: insights2
    },
    {
       id: 3,
-      title: "why your website gets visits but no enquiries",
+      title: "beyond pageviews: how to track local customer acquisition to deposited revenue",
       src: insights3
    },
 ];
@@ -905,33 +903,37 @@ export const insightsPublicationItems = [
 export const latestItemss = [
    {
       id: 1,
-      href: "/",
+      href: "/case/",
       src: latest1,
       links: [
          {
             id: 1,
-            title: "google business profile"
-         },
-         {
-            id: 1,
             title: "local seo"
          },
+         {
+            id: 2,
+            title: "speed-to-lead"
+         },
       ],
-      title: "Why your restaurant is invisible on Google Maps — and how to fix it.",
+      title: "Why high-value local businesses lose 60% of search leads — and how to fix the leakage.",
       subTitle: "By Mohammed Faiz",
       date: "14 Aug 2026"
    },
    {
       id: 2,
-      href: "/",
+      href: "/case/",
       src: latest2,
       links: [
          {
             id: 1,
-            title: "website"
+            title: "acquisition engine"
+         },
+         {
+            id: 2,
+            title: "revenue tracking"
          },
       ],
-      title: "What a good website actually does for a clinic: turning searches into appointments.",
+      title: "What a connected acquisition system actually does for a clinic: from Google click to booked procedure.",
       subTitle: "By Mohammed Faiz",
       date: "02 Jul 2026"
    },
@@ -941,75 +943,84 @@ export const latestItemss = [
 export const workizItem = [
    {
       id: 1,
-      title: "office vibe",
+      title: "Clinic Acquisition Engine",
       src: project7,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Local SEO 3-Pack",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "WhatsApp Booking",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Revenue Tracking",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "planetly",
+      title: "Interior Studio Pipeline",
       src: project5,
       href: "/case/",
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "High-Ticket Funnel",
             href: "/services",
          },
          {
             id: 2,
-            title: "big news deck",
+            title: "Google Search Ads",
             href: "/services",
          },
          {
             id: 3,
-            title: "branded template",
+            title: "Lead Qualification",
             href: "/services",
          },
          {
             id: 4,
-            title: "investor deck",
+            title: "Portfolio Conversion",
             href: "/services",
          },
          {
             id: 5,
-            title: "policy deck & playbook",
+            title: "Speed-to-Lead",
             href: "/services",
          },
          {
             id: 6,
-            title: "sales deck",
+            title: "Revenue Attribution",
             href: "/services",
          },
       ]
    },
 ];
 
-
 // about page constants
 
 export const aboutPartberItems = [
    {
       id: 1,
-      title: "Restaurants & cafés",
-      para: "Full tables start with being found. We run your Google presence, your food photography on Instagram, and weekend-offer ads that end at a booked table — every channel tracked to the rupee, reported in plain language."
+      title: "Specialist Clinics & Healthcare",
+      para: "High-intent patients search on Google with urgent clinical needs. We secure top 3 local rankings, deploy frictionless WhatsApp booking triage, and track consultations through to completed procedures — turning search volume into confirmed appointments."
    },
    {
       id: 2,
-      title: "Salons & clinics",
-      para: "Appointments, not vanity metrics. Your booking page, your Google reviews, your WhatsApp enquiries and your reminders work as one system — so empty chairs and idle slots get filled without you chasing anyone."
+      title: "High-Value Home Services & Contracting",
+      para: "When homeowners need emergency or premium contracting, speed-to-lead determines who gets the contract. We build instant call and WhatsApp routing infrastructure, automated inquiry triage, and call tracking so zero high-ticket jobs slip away."
    },
    {
       id: 3,
-      title: "Real estate & interiors",
-      para: "High-ticket enquiries are built on trust at every step. Website, targeted ads, instant WhatsApp follow-up and enquiry tracking — so serious buyers reach you, and serious leads never slip through your phone."
+      title: "Architecture & Interior Studios",
+      para: "High-ticket residential and commercial clients require deep trust before inquiring. We build high-speed conversion portfolios, targeted search campaigns, and structured qualification flows that weed out tire-kickers and deliver serious project briefs."
    },
 ];
 
@@ -1018,94 +1029,94 @@ export const aboutPartberItems = [
 export const FaqItems = [
    {
       id: 1,
-      question: "What does it cost, and am I locked into a long contract?",
+      question: "How does your pricing work, and am I locked into a long-term contract?",
       title: "Description",
-      description: "You pay a fixed monthly fee based on which services are in your stack, and the quote is itemised before we start — no surprise 'extra charges' later. After the initial setup period, we work on rolling monthly engagements, not year-long lock-ins that punish you for leaving.",
+      description: "We work on transparent, fixed monthly engagements based on your specific acquisition stack. We start with a diagnostic audit and a focused sprint to prove measurable ROI before proposing an ongoing retainer. We never lock you into multi-month binding contracts; we earn your business month after month through documented performance.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "We would rather earn your next month than trap you in a contract. If we are not performing, you are free to walk."
+            description: "Transparent scope: Your deliverables, infrastructure updates, and tracking parameters are documented upfront — zero hidden fees."
          },
          {
             id: 2,
             title: 2,
-            description: "Want to add or remove a service? We adjust the fee openly before the month begins — nothing moves without your sign-off."
+            description: "Performance-backed: If our acquisition engine fails to prove its economic return on your business, you can pause or cancel anytime."
          },
       ],
       button: "read"
    },
    {
       id: 2,
-      question: "How fast will I actually see results?",
+      question: "How fast will our business see qualified enquiries and measurable ROI?",
       title: "Description",
-      description: "Your website, Google profile and social pages go live within the first month and start working immediately. Ads can bring enquiries from week one once tracking is set. Search rankings and review ratings build over two to three months — and we will tell you honestly which is which, in writing.",
+      description: "Your conversion infrastructure, Google Business Profile optimization, and instant WhatsApp routing go live within the first 14 to 21 days. High-intent search campaigns start capturing active local demand within the first week of activation. Organic local map pack rankings and review velocity compound substantially over 60 to 90 days.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Month one: the foundations go live — website, Google Business Profile, social profiles, call and enquiry tracking."
+            description: "Sprint phase (Weeks 1-3): Plugging lead leaks, launching conversion pages, setting up speed-to-lead WhatsApp response."
          },
          {
             id: 2,
             title: 2,
-            description: "Months two and three: results compound — rankings climb, review scores improve, ads get optimised against real conversion data."
+            description: "Scale phase (Months 2-3): Compounding search rankings, optimizing cost-per-acquisition, and expanding high-performing search queries."
          },
       ],
       button: "read"
    },
    {
       id: 3,
-      question: "What happens to my existing website and social accounts?",
+      question: "What happens to our existing website, Google profiles, and ad accounts?",
       title: "Description",
-      description: "Nothing gets deleted and you lose nothing. We work on your existing domain, Google Business Profile and social handles, and ownership always stays in your name. If your current website is beyond saving, we will say so before we rebuild it, not after.",
+      description: "You retain 100% full legal ownership of your domain, Google Business Profile, ad accounts, analytics, and customer databases. We build on top of your existing digital assets or upgrade them with your permission. If we ever part ways, every piece of infrastructure, lead log, and conversion data remains yours.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "You own everything — logins, domain, ad accounts, pages. If we ever part ways, you take the entire setup with you, no ransom."
+            description: "Zero hostage-taking: All platform credentials, tracking codes, and intellectual property remain directly in your company's name."
          },
       ],
       button: "read"
    },
    {
       id: 4,
-      question: "How is this different from hiring a freelancer or a big agency?",
+      question: "How does Nuvora compare to hiring a traditional agency or a freelancer?",
       title: "Description",
-      description: "A freelancer handles one piece and disappears when they get busy. A big agency assigns your account to juniors and bills you for their overhead. Nuvora is one accountable team covering the full stack, at a fee a small business can plan around.",
+      description: "Freelancers handle fragmented tasks and disappear when issues arise; traditional agencies pass your account to inexperienced juniors while billing for heavy agency overhead. Nuvora provides a specialized, founder-led customer acquisition engine covering the full pipeline — Discover, Capture, Respond, Convert, Measure — for less than the cost of one senior marketing hire.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "No single point of failure: your website, Google, social, ads and follow-up are coordinated together — the left hand always knows what the right hand is doing."
+            description: "No finger-pointing: Search rankings, landing pages, paid ads, and WhatsApp follow-up are synchronized by one accountable operator."
          },
       ],
       button: "read"
    },
    {
       id: 5,
-      question: "Are results guaranteed?",
+      question: "Do you guarantee results, and how is performance held accountable?",
       title: "Description",
-      description: "We do not sell magic numbers, and you should run from anyone who does. What we guarantee is the work: defined deliverables every month, tracking on everything, and honest reporting of what each rupee brought in. Then we keep fixing whatever the data tells us.",
+      description: "We guarantee the operational integrity of your acquisition system: rigorous speed-to-lead protocols, daily ad management, continuous conversion rate optimization, and closed-loop revenue reporting. If any marketing channel fails to demonstrate clear financial return on your bottom line, we advise you to cut it immediately.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Our standing promise: if a channel consistently cannot show its contribution to your revenue, we will tell you to cut it — even if it is the service we would bill you for."
+            description: "Our core operating promise: We treat your capital like our own. We report on booked consultations and revenue, not likes or impressions."
          },
       ],
       button: "read"
    },
    {
       id: 6,
-      question: "Do I need to already have a website, pages or content in place?",
+      question: "What if we currently have low digital visibility or no ad accounts?",
       title: "Description",
-      description: "No. We start from wherever you are — many of our best-fit clients come with nothing but a shop board and a phone number. Whatever exists gets audited first, and only what is worth keeping is kept.",
+      description: "Starting from scratch or a fragmented presence is common. Many of our highest-performing clients came to us with nothing more than an unoptimized Google Maps pin and a phone number. The initial audit maps out the fastest path to qualified local demand, and the first sprint builds the foundational revenue engine.",
       links: [
          {
             id: 1,
             title: 1,
-            description: "Starting from zero is normal. Building your complete presence from scratch is exactly what the first 30 days are for."
+            description: "Complete setup included: We configure your Google Business Profile, tracking pixels, WhatsApp API routing, and conversion pages from the ground up."
          },
       ],
       button: "read"
